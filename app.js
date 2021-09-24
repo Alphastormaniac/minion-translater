@@ -1,11 +1,5 @@
-var textarea = document.querySelector("textarea")
-var buttonPrimary = document.querySelector(".btn-primary")
-var input = document.querySelector("#inputButton")
+var username = prompt("Give me your username")
 
-var inputButton = document.querySelector("input[name]")
+var welcomeMessage = "this scrifpt works! " + username;
 
-console.log(textarea)
-console.log(buttonPrimary)
-console.log(input)
-console.log(inputButton)
-
+alert(welcomeMessage)
