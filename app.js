@@ -14,8 +14,10 @@ function getTranslationURL(text) {
 }
 
 function clickHandler() {
-    const inputText = txtInput.value; //
+    const inputText = txtInput.value;
+
     //    calling server for processing
+
     fetch(getTranslationURL(inputText))
         .then(response => response.json())
         .then(json => {
@@ -23,7 +25,7 @@ function clickHandler() {
             outputToUser.innerText = translatedText;
         })
         .catch(errorEventHandler)
-}
+};
 
 function errorEventHandler(error) {
     alert("Something is wrong with the server.. Kindly co-operate.")
