@@ -7,15 +7,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pavan| Minion Translater</title>
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 </head>
 
 <body>
-    <nav><h1>BaNaNa Translator</h1></nav>
-    <textarea id="txt-input"  cols="30" rows="10" placeholder="Put your sentence here in English so we can translate it to BaNaNa!"></textarea>
-    <button id="btn-translate">Translate</button>
-    <div style="font-size: large;">Output will come here 👇🏻</div>
-    <div id="output"></div>
-    <footer>This is a web app made using VanillaJs by Pavan.</footer>
+    <nav class="navigation">
+        <div class="nav-brand">
+            <a class="link" href="index.html">Minion<span class="nav-span">Translator</span></a>
+        </div>
+    </nav>
+    <div class="gif">
+        <img src="https://64.media.tumblr.com/4617f53042605a1a43eb8c12a42fd8b7/tumblr_nrnpu5zrO11s8njeuo1_500.gifv" data-highres="https://64.media.tumblr.com/4617f53042605a1a43eb8c12a42fd8b7/tumblr_nrnpu5zrO11s8njeuo1_500.gifv" alt="#Minions">
+    </div>
+    <div class="container">
+        <h1>Put your sentence in English so we can translate it to BaNaNa!</h1>
+        <textarea id="txt-input"  cols="30" rows="10" placeholder="Type something in here..."></textarea>
+        <div class="centre-btn">
+            <button id="btn-translate">Translate</button>
+        </div>
+        <div style="font-size: large;">Output will come here 👇🏻</div>
+        <div id="output"></div>
+    </div>
+    <footer class="footer">
+        <div class="footer-header">Social Media Presence</div>
+        <ul class="list-nonbullet social-links">
+            <li class="foot-li list-item-inline"><a class="link" href="https://github.com/Alphastormaniac" target="_blank"><i class="footer-icons fab fa-github"></i></a></li>
+            <li class="foot-li list-item-inline"><a class="link" href="#" target="_blank"><i class="footer-icons fab fa-twitter"></i></a>
+            </li>
+            <li class="foot-li list-item-inline"><a class="link" href="#" target="_blank"><i class="footer-icons fab fa-linkedin-in"></i></a>
+            </li>
+            <li class="foot-li list-item-inline"><a class="link" href="https://www.instagram.com/sai_pavan679/"
+                    target="_blank"><i class="footer-icons fab fa-instagram"></i></a>
+            </li>
+            <li class="foot-li list-item-inline"><a class="link" href="snap.html" target="_blank"><i
+                        class="footer-icons fab fa-snapchat-ghost"></i></a>
+            </li>
+        </ul>
+    </footer>
     <script src="/app.js">
     </script>
 </body>
