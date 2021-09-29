@@ -147,6 +147,8 @@ img{
 .foot-li {
     padding: 0 2px;
     text-align: center;
+    display: inline-flex;
+
 }
 
 .snap-code {
@@ -155,4 +157,14 @@ img{
     align-self: center;
     padding: 3rem;
 }
+
+#output{
+    border: 3px solid black;
+    width: 95%;
+    height: 15vh;
+    margin-top: 1rem;
+    text-align: left;
+    padding-left: 1rem ;
+}
+
 
